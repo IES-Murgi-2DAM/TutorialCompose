@@ -2,6 +2,12 @@
 
 Cada módulo del proyecto contiene una aplicación de ejemplo sobre un tema específico de Jetpack Compose.
 
+## Stack
+
+- Gradle 9.8.2 · AGP 9.1.0 · Kotlin 2.4.21 · JDK 17+
+- Jetpack Compose BOM 2026.09.00 (Compose 1.12.1, Material3 1.4.0)
+- `compileSdk`/`targetSdk` 37 · `minSdk` 24
+
 Se puede ejecutar cada módulo de forma independiente, ya que cada uno de ellos contiene su propia `MainActivity.kt`.Todas configuradas como lanzadores de la aplicación o `Launcher`.
 
 Los módulos están ordenados de la siguiente manera, y los temas tratados en cada ejemplo son los siguientes:
